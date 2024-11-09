@@ -7,7 +7,15 @@ Transcrito desde otra aplicación propia que fue creada en c#. Esta versión fue
 Dependencia de paquetes:
 > pillow
 
-Si se agrega al path del sistema, puede trabajar desde la carpeta en la que es llamada. 
+Si se agrega al path del sistema, puede trabajar desde la carpeta en la que es llamada. También puede ser trabajado con alias como lo hice yo, de esta manera
+
+* Editas el archivo .bashrc.
+* Agregas la línea en el apartado de alias.
+
+```bash
+alias py=python3
+alias reorganizador='source ~/leng/py/py-reorganizador/envpy/bin/activate && py ~/leng/py/py-reorganizador/py-reorganizador.py && deactivate'
+```
 
 ## Consideraciones
 * Trabaja con un conjunto de fotos en formato .jpg, no he probado otras extensiones de archivos como su predecesor en c#.
