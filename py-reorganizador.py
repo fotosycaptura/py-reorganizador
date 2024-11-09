@@ -19,7 +19,7 @@ class Reorganizador:
         self.args = self.parse_args()
 
     def parse_args(self):
-        parser = argparse.ArgumentParser(description="Reorganizador de fotos")
+        parser = argparse.ArgumentParser(description="py-reorganizador: Reorganizador de fotos")
         return parser.parse_args()
 
     def reorganiza(self, crear_carpeta, item):
